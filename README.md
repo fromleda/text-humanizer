@@ -1,5 +1,6 @@
 # text-humanizer
-<img width="1092" height="303" alt="image" src="https://github.com/user-attachments/assets/422b3af7-aab7-4dd6-a013-0cc2dbe9331e" />
+<img width="1090" height="291" alt="image" src="https://github.com/user-attachments/assets/18b2fa4d-cb1e-48c4-82d2-8c888ae5076b" />
+
 
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ![Python](https://img.shields.io/badge/python-3.6%2B-blue)
@@ -40,7 +41,7 @@ The resulting text is translated back into the original input language using the
 # Quick start(Windows/Linux/MacOS)
 
 ```bash
-git clone https://github.com/anasu1/text-humanizer.git
+git clone https://github.com/fromleda/text-humanizer.git
 cd text-humanizer
 pip install -r requirements.txt
 
