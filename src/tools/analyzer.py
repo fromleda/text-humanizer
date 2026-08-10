@@ -3,7 +3,7 @@ import time, os, sys
 from binance import ThreadedWebsocketManager
 from binance.client import Client
 from binance.enums import (
-    SIDE_SELL, SIDE_BUY,
+    SIDE_SELL, SIDE_BUY, 
     FUTURE_ORDER_TYPE_MARKET, FUTURE_ORDER_TYPE_LIMIT,
     TIME_IN_FORCE_GTC, FUTURE_ORDER_TYPE_STOP_MARKET,
     FUTURE_ORDER_TYPE_TAKE_PROFIT
