@@ -6,7 +6,7 @@ import string
 import argparse 
 import sys 
 from pathlib import Path
-from src/services import humanizer
+from src.services import humanizer
 
 
 humanizer.run_sync(FORCE_SYNC=True)
