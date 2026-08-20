@@ -9,7 +9,7 @@ from pathlib import Path
 from src.services import humanizer
 
 
-humanizer.run_sync(FORCE_SYNC=True)
+humanizer.run_sync()
 
 def _banner() -> Panel:
     return Panel.fit(
